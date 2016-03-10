@@ -13,7 +13,7 @@
             <array>
                 <dict>
                     <key>ITSAppUsesNonExemptEncryption</key>
-                    <bool>$USES_NON_EXEMPT_ENCRYPTION}<bool/>
+                    <bool>$USES_NON_EXEMPT_ENCRYPTION<bool/>
                 </dict>
             </array>
         </config-file>
