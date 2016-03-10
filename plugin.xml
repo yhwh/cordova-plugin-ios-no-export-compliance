@@ -6,13 +6,14 @@
     <engines>
         <engine name="cordova" version=">=3.0.0" />
     </engines>
-    <preference name="UsesNonExemptEncryption" />
+    <preference name="USES_NON_EXEMPT_ENCRYPTION" />
     <!-- ios -->
     <platform name="ios">
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
             <array>
                 <dict>
-                    <key>ITSAppUsesNonExemptEncryption</key><$UsesNonExemptEncryption/>
+                    <key>ITSAppUsesNonExemptEncryption</key>
+                    <bool>$USES_NON_EXEMPT_ENCRYPTION}<bool/>
                 </dict>
             </array>
         </config-file>
