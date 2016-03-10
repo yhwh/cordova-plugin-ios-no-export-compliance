@@ -6,7 +6,6 @@
     <engines>
         <engine name="cordova" version=">=3.0.0" />
     </engines>
-    <preference name="USES_NON_EXEMPT_ENCRYPTION" />
     <!-- ios -->
     <platform name="ios">
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
