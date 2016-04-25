@@ -8,7 +8,7 @@
     </engines>
     <!-- ios -->
     <platform name="ios">
-        <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+        <config-file target="*-Info.plist" parent="/">
             <array>
                 <dict>
                     <key>ITSAppUsesNonExemptEncryption</key>
