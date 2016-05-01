@@ -8,6 +8,12 @@
     </engines>
     <!-- ios -->
     <platform name="ios">
+        <config-file target="*-Info.plist" parent="UIBackgroundModes">
+            <array>
+                <string>remote-notification</string>
+            </array>
+        </config-file>
+
         <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
             <false/>
         </config-file>
